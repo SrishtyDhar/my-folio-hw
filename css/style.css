@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul ,ol{
+   list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.contaier{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* navbar starts */
+nav{
+    background-color: #02918b;
+}
+nav .row{
+    align-items: center;
+}
+nav .logo{
+    width: 30%;
+}
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+
+nav .menu li{
+    display: inline-block;
+}
+nav .menu li a{
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+}
+nav .logo a{
+    padding-left: 100px;
+}
+/* navbar ends */
+
+/* Banner starts */
+
+#banner{
+    background-image: url(../image/banner.jpg);
+    height: 728px;
+    background-position: center;
+    background-size: cover;
+}
+#banner .row{
+    height: 728px;
+    align-items: center;
+    
+}
+.banner_cnt{
+    width: 100%;
+    text-align: center;
+}
+
+.banner_cnt h3{
+
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.banner_cnt h1{
+
+    color: white;
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+}
+.banner_cnt p{
+
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.button{
+    background-color: #cfc91d;
+    padding: 19px 42px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    display: inline-block;
+}
+.banner_cnt img{
+    margin: 52px 0;
+}
+/* Banner ends */
+
+
+/* about starts */
+
+.heading{
+    text-align: center;
+}
+.heading h2{
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.heading p{
+    color: #aeb1b4 ;
+    font-size: 16px;
+    font-weight: 400s;
+}
+#about{
+    padding: 98px 0;
+}
+.about_cnt{
+margin: 51px 0;
+}
+.about_cnt p{
+    text-align: center;
+     color: #aeb1b4 ;
+    
+    
+}
+span{
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+.about_card{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid  #7e8287;
+    padding: 36px 0;
+}
+.about_card:last-child{
+    border: none;
+}
+.about_card i{
+color: #02918b;
+font-size: 30px;
+}
+.about_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 29px 0;
+}
+.about_card p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 20px;
+    
+}
+/* about ends */
+
+/* service starts */
+
+#service{
+    background-image: url(../image/services.jpg);
+    background-size: cover;
+    padding: 74px 0 74px 60px;
+    
+    
+}
+.service_left {
+    width: 50%;
+}
+#service .heading{
+    text-align: left;
+
+}
+#service .heading p{
+    padding: 40px 0;
+
+}
+.service_card{
+    width: 25%;
+    padding: 30px 0;
+}
+.service_card i{
+    color: #02918b;
+    font-size: 30px;
+    }
+    .service_card h4{
+        font-size: 16px;
+        font-weight: 800;
+        color: #7e8287;
+        margin: 29px 0;
+    }
+    .service_card p{
+        font-size: 11px;
+        font-weight: 400;
+        color: #7e8287;
+        line-height: 13px;
+    }
+    
+/* service ends */
+/* my work starts */
+
+#work .heading{
+    margin: 104px 0 15px 0;
+}
+#work p{ 
+    text-align: center;
+    font-size: 16px;
+font-weight: 400;
+color: #7e8287;
+padding-bottom: 70px;
+}
+#work .heading p{
+    padding: 20px 0;
+}
+.work_card{
+    width: 25%;
+    position: relative;
+}
+.work_card img{
+    width: 100%;
+    display: block;
+    
+}
+.work_card .overlay{
+    position: absolute;
+    background-color: #02918aa9;
+    inset: 20px 28px;
+    color: white;
+    padding-top: 40px;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 50px ;
+    transition: 0.5s;
+}
+.work_card h4{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 20px;
+}
+.work_card .overlay p{
+    line-height: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+.work_card:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+/* my work ends */
+/* last banner starts */
+
+#last_bnr{
+    background-image: url(../image/last-bnr.jpg);
+    
+}
+.border{
+    text-align: center;
+    padding: 80px 0 ;
+    color: white;
+    
+}
+
+/* last banner ends */
